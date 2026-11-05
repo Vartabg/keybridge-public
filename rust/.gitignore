@@ -1,0 +1,4 @@
+# Cargo's build output.
+target/
+# Temporary session folders made by the guided demo and the tests.
+.kb-*/

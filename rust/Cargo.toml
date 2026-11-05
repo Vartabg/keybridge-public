@@ -1,0 +1,14 @@
+[package]
+name = "keybridge"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+base64 = "0.23.1"
+percent-encoding = "2.3.2"
+rpassword = "7.5.4"
+rustix = { version = "1.1.6", default-features = false, features = ["std", "process"] }
+serde_json = { version = "1.0.154", features = ["preserve_order"] }
+signal-hook = { version = "0.4.6", default-features = false }
+ureq = { version = "3.5.1", default-features = false, features = ["rustls"] }
+zeroize = "1.9.1"

@@ -1,0 +1,233 @@
+{
+  "format": 1,
+  "sourceCommit": "8ccd512eed9e0b5b77b81ffb78a704b505241bc5",
+  "publication": "unpublished-candidate",
+  "license": "MIT",
+  "includesGitHistory": false,
+  "leftOut": [
+    "docs/DECISIONS.md",
+    "docs/customer-evidence.md",
+    "docs/first-customer-acceptance.md",
+    "docs/plans/2026-09-23-first-customer.md",
+    "docs/plans/2026-09-25-guided-mock.md",
+    "docs/plans/2026-11-05-rust-daemon-review.md",
+    "docs/plans/2026-11-05-rust-daemon.md",
+    "docs/product.md",
+    "docs/validation.md"
+  ],
+  "edited": [
+    "README.md",
+    "SECURITY.md",
+    "docs/typesafe-vercel.md"
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/check.yml",
+      "sha256": "47aad9e550a6f55cbe7c39b82f527300b552b74ccb5f977d6427a3aef9aecc8b"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "35afbbed6933dc2ee3b362c71b578e53fc305596640a536c3d5d19aeccc06bd9"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1db3e15bbb92319525a79ea36d695b24ac5095a847710d41db060ec31e773643"
+    },
+    {
+      "path": "README.md",
+      "sha256": "f74c4d5200729ceb62cc2c08150cf783bff6f783b6a081308fcccccb0cda9ae5"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "3091b5e1f117d05b5ba50e0858ce9012d06f6e4ffb3e2b744d32eb378a663ac0"
+    },
+    {
+      "path": "docs/TECH_DEBT.md",
+      "sha256": "10e6ce45fc3d4095172671d3498f749f1f48336d4dd7acad0959805e07e2fb9d"
+    },
+    {
+      "path": "docs/rust-port.md",
+      "sha256": "cf2be594d6b6ca1f17bf7c525f78393e074213fbe3a04d535cb02023a27be7a7"
+    },
+    {
+      "path": "docs/typesafe-vercel.md",
+      "sha256": "67781b135f8c73a4cbee421272fafd094440815ca15bf6ef010525a169bc24fe"
+    },
+    {
+      "path": "keybridge/__init__.py",
+      "sha256": "a17a036956592301a2e208ed8eeaaf2241ae6a86dad647bfa03a27af44285ada"
+    },
+    {
+      "path": "keybridge/__main__.py",
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+    },
+    {
+      "path": "keybridge/broker.py",
+      "sha256": "296540684074b777cdcb894df1803ea60686e1fbdf71ede3fa7ace4cfd04261e"
+    },
+    {
+      "path": "keybridge/cli.py",
+      "sha256": "1dc1002c6749327f6d6c751e86e90b84c4372bf2c4e2917450be2c7f7e3f53b5"
+    },
+    {
+      "path": "keybridge/config.py",
+      "sha256": "6b0b6451c8c708407366919a32e702188b4d0cf10d9bda14f0ca9c702eec1b80"
+    },
+    {
+      "path": "keybridge/demo.py",
+      "sha256": "06d6fdf043c8cf2a008f909344745a4fe1074670ca6567577b754f501d18cb39"
+    },
+    {
+      "path": "keybridge/deployment.py",
+      "sha256": "558303a1bcffd012fc72ccf8acdeda79102dab61c63a0ce4b4c27e5e05e0fbe5"
+    },
+    {
+      "path": "keybridge/errors.py",
+      "sha256": "0d4e7558c1bface453ae0e131134296184432e4eb12653cfd7d6dbb02aadce1f"
+    },
+    {
+      "path": "keybridge/onboarding.py",
+      "sha256": "1f132a74aa1b9f3240c0e017c8e0254ddf9cc7c046bec318f430ebc1b499f162"
+    },
+    {
+      "path": "keybridge/owner.py",
+      "sha256": "80dfd5a1af650d580ed8ad25aff9b0d13caabd0a3ea85d95c5b1a1c71c658e49"
+    },
+    {
+      "path": "keybridge/providers.py",
+      "sha256": "4e77239e7f68669acde9e959b7d284489c7bcfa33f6524008e8ca90f3dca97a6"
+    },
+    {
+      "path": "keybridge/transport.py",
+      "sha256": "aede541ad9dc0e22abd762655a339ca54f8b5ada0d95f58bd725728cdfd7caf6"
+    },
+    {
+      "path": "keybridge/typesafe.py",
+      "sha256": "0d5c434bf2a4088cc21f68441e4720cfb9a76f2619d6af43b3ad8fd6e4a7fcd4"
+    },
+    {
+      "path": "keybridge/vault.py",
+      "sha256": "ed667517c84c6c59498f5764c372a5d40bb633469f89e6f6a4cd2cb2af211898"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f339724471bb73aa92b2fd5c3eecaf858908654ef11765970ae2fb01f9cb4f09"
+    },
+    {
+      "path": "rust/.gitignore",
+      "sha256": "2dbe702e062be523df6451190ac239acd53f40686210dd1bc57680a444b1f4cf"
+    },
+    {
+      "path": "rust/Cargo.lock",
+      "sha256": "f17c8fdb190ebf4ac33fcdb196247d403e23db7edf794ee93f9aac4ffc42292d"
+    },
+    {
+      "path": "rust/Cargo.toml",
+      "sha256": "fca745395f0f343550ee208abff5fcea55a0c2aa849ed56d20249d093c11539e"
+    },
+    {
+      "path": "rust/LEARN.md",
+      "sha256": "db97ba366e74820455c3a02bc087d72d32c43feb764a33fd35f12f912070adfd"
+    },
+    {
+      "path": "rust/src/broker.rs",
+      "sha256": "c7df550cfe4daea1a6b41ff85f05b164766a8214540762a15f9d3af3e4907f87"
+    },
+    {
+      "path": "rust/src/cli.rs",
+      "sha256": "aa72a68746c9503572bcc37719f6f5f371a4a768709b2bdbd9a26fa380797f59"
+    },
+    {
+      "path": "rust/src/demo.rs",
+      "sha256": "e6164874497cfab48beee2a2ef1bba77ec08c83539cef4f362be91d27e0a3bee"
+    },
+    {
+      "path": "rust/src/error.rs",
+      "sha256": "b78f3fdd3c717e8ff037afe32594dbcb8b9f314569ff64410160443894259fbf"
+    },
+    {
+      "path": "rust/src/lib.rs",
+      "sha256": "21880d863b72bf5c49ae2e94e2f4d895ad06d85cd61ce9e2190c8c8b1f6c8972"
+    },
+    {
+      "path": "rust/src/main.rs",
+      "sha256": "0919c3fdf21e64a04299e2dd203675a8ea9c7aef919c0440e2410418d52bee79"
+    },
+    {
+      "path": "rust/src/output.rs",
+      "sha256": "a7bfed211573feddfb2c941e947b0d38b35dcec930baa4e3a27e7acff94526fa"
+    },
+    {
+      "path": "rust/src/policy.rs",
+      "sha256": "8659957dde2a37d1428067dbcc0187812e7b60fa85ebc05237a76711bae972fc"
+    },
+    {
+      "path": "rust/src/providers.rs",
+      "sha256": "c6e3a572454202aeb8198e54bd0365de070f651057f44f9cf3f4be084274a0e7"
+    },
+    {
+      "path": "rust/src/secret.rs",
+      "sha256": "e7fbf0415b636d1dc5cb1fabf0266c7df0b5edaf56bc85f06693776953022cb7"
+    },
+    {
+      "path": "rust/src/transport.rs",
+      "sha256": "3c99314308631e74609a09834ebe6c227cba1f7c92a7eb1cc17e3c91f0b9e952"
+    },
+    {
+      "path": "rust/tests/broker_rules.rs",
+      "sha256": "5e56df3d287c946cef19e1e0777777b5e67a105f69fbcf7ef61f7b44f626900b"
+    },
+    {
+      "path": "rust/tests/cli_binary.rs",
+      "sha256": "a955dd742081c33dae0d1dacdf5b1596abedd44800ae3c05655cc6a8e6505b7b"
+    },
+    {
+      "path": "rust/tests/socket_session.rs",
+      "sha256": "dcde9a1a27be804392558ad82994d8aab79d126b315c28d8ac3df3dbdca48e47"
+    },
+    {
+      "path": "scripts/connect-typesafe.command",
+      "sha256": "83820c6f97403ee104f59b467c93d0b33fbafd42ab2ed3be74fd54bbdbcecf66"
+    },
+    {
+      "path": "scripts/demo.command",
+      "sha256": "100715ae491474420e628a6fecf1649b7362af8e4a936e942e64445926619d1f"
+    },
+    {
+      "path": "tests/test_broker.py",
+      "sha256": "077552bb48e2b0414040c774700b3d1bacc9e91dd2a8dd1c9eb98cbaef39cd88"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "764701421f67c2039480cab8792d85d5b716735a703fd93e4914f5c9160f329c"
+    },
+    {
+      "path": "tests/test_demo.py",
+      "sha256": "b949d171bd073860774582ccced970c250951512d1aab91ff4edd9276de4319b"
+    },
+    {
+      "path": "tests/test_deployment.py",
+      "sha256": "7d9988098fb6b3159b8f2e2caf9a5f50ffaa19b13aafee3b588e907c9ba7277d"
+    },
+    {
+      "path": "tests/test_owner.py",
+      "sha256": "252bcb19128f6aaadc21f38397c29fa37e4ef2c338df992047b2f6b1b9b748f1"
+    },
+    {
+      "path": "tests/test_providers.py",
+      "sha256": "6074ffdf3c080201734997d3d7fcb965e3be057f714259087e626ebae10541f2"
+    },
+    {
+      "path": "tests/test_transport.py",
+      "sha256": "0cb4bcb0dd38f75dc15e93817fae1e5ed9ea6fb01c8695202f90f58c4d046804"
+    },
+    {
+      "path": "tests/test_typesafe.py",
+      "sha256": "e78be004234649d4df8587d7d0952fc62b452a757287d98991a3a5f863ff2afb"
+    },
+    {
+      "path": "tests/test_vault.py",
+      "sha256": "288f66d064d6a42ccae458759e7e491155d5ec8e938f76e51e52f66214de3332"
+    }
+  ]
+}
